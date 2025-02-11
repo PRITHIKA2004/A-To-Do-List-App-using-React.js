@@ -1,0 +1,79 @@
+body{
+    text-align:center;
+    background-color: #E9F1FA;
+    margin-top:0px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+h1{
+    margin-top:0px;
+    background-color: #00ABE4;
+    font-family: cursive;
+    font-size:40px;
+}
+.inputTask{
+    display:flex;
+    flex-direction: column;
+    font-size:50px;
+    align-items: center;
+}
+.inputTask>input{
+    height:50px;
+    width:500px;
+    font-size:30px;
+    border-radius:20px;
+}
+.inputTask>button{
+    height:50px;
+    width:50px;
+    border-width: 3px;
+    border-radius:40px;
+    font-size:40px;
+    margin-top:10px;
+    background-color:#00ABE4;
+    color:white;
+    
+}
+.inputTask>button:hover{
+    border-color:brown;
+    background-color:white;
+    color:#00ABE4;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.todo{
+    width:600px;
+    background-color: white;
+    font-size:18px;
+    color:black;
+    display:flex;
+    border-radius:20px;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+    margin:5px;
+}
+.todo>h2{
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.check>input{
+    width:20px;
+    height:20px;
+    padding:5px;
+    
+}
+.check>button{
+    background-color:#00ABE4 ;
+    width:100px;
+    height:50px;
+    border-radius:10px;
+    padding:6px;
+    font-size:20px;
+    color:white;
+    border-color:none;
+
+}
